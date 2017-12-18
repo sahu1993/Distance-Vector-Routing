@@ -36,7 +36,7 @@ We will use automated tests to grade this assignment. The grader, among other th
 Routers are one of the most important elements in any network, responsible for forwarding packets to the next-hop in the network and eventually to their correct destination. To be able to perform this critical task, routers rely on the forwarding table. The forwarding table itself is constructed using the distance vector routing protocol. A router’s operations are divided into two dimensions: Data Plane and Control Plane (Figure 2).
 
 
- ![Alt Text](http://blogs.salleurl.edu/data-center-solutions/2016/03/sdn-the-latest-trend-in-data-centers-e2016/)
+ ![Alt Text](http://blogs.salleurl.edu/data-center-solutions/files/2016/03/Screen-Shot-2016-03-06-at-22.58.09-300x127.png)
 
 
 This assignment requires the implementation of a very basic, simplified router, able to perform the functions described below:
