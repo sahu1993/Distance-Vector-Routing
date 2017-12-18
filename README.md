@@ -36,9 +36,7 @@ We will use automated tests to grade this assignment. The grader, among other th
 Routers are one of the most important elements in any network, responsible for forwarding packets to the next-hop in the network and eventually to their correct destination. To be able to perform this critical task, routers rely on the forwarding table. The forwarding table itself is constructed using the distance vector routing protocol. A router’s operations are divided into two dimensions: Data Plane and Control Plane (Figure 2).
 
 
-Screen-Shot-2016-03-06-at-22.58.09.png
-
-Graphics Source: http://blogs.salleurl.edu/data-center-solutions/2016/03/sdn-the-latest-trend-in-data-centers-e2016/
+ ![Alt Text](http://blogs.salleurl.edu/data-center-solutions/2016/03/sdn-the-latest-trend-in-data-centers-e2016/)
 
 
 This assignment requires the implementation of a very basic, simplified router, able to perform the functions described below:
@@ -105,57 +103,37 @@ E.g., Consider the topology in Figure 1.
 Figure 1: Example topology
 
 
-Line #
+                                        Line #   Line entry
 
-Line entry
+                                        1        5
 
-1
+                                        2        1 128.205.36.34 4091 3452 2344
 
-5
+                                        3        2 128.205.35.46 4094 4562 2345
 
-2
+                                        4        3 128.205.36.33 4096 8356 1635
 
-1 128.205.36.34 4091 3452 2344
+                                        5        4 128.205.36.35 7091 4573 1678
 
-3
+                                        6        5 128.205.36.36 7864 3456 1946
 
-2 128.205.35.46 4094 4562 2345
+                                        7        1 2 7
 
-4
+                                        8        4 5 9
 
-3 128.205.36.33 4096 8356 1635
+                                        9        1 4 2
 
-5
+                                        10       3 4 5
 
-4 128.205.36.35 7091 4573 1678
+                                        11       3 2 4
 
-6
+                                        12       3 5 11
 
-5 128.205.36.36 7864 3456 1946
 
-7
 
-1 2 7
 
-8
 
-9
 
-4 5 9
-
-1 4 2
-
-10
-
-11
-
-12
-
-3 4 5
-
-3 2 4
-
-3 5 11
 
 
 Actual topology files will contain only the Line entry part (2nd column, see topology_example file included in the template). You can use your own topology files to test your code. However, we will use our topology files to test your program.
