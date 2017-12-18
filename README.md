@@ -102,6 +102,7 @@ E.g., Consider the topology in Figure 1.
 
 Figure 1: Example topology
 
+![Alt Text](https://docs.google.com/drawings/d/sj2ty5Xe3vY3u-xtXhJ9aMQ/image?rev=1&h=223&w=347&ac=1)
 
                                         Line #   Line entry
 
@@ -158,7 +159,7 @@ Also note that each router uses a different timer for each neighbor (to check fo
 
 **5.2 Routing Update Packet Format**
 
-update_packet.png
+![Alt Text](https://lh6.googleusercontent.com/r2lEcYZq8kYqdhX9hB1BHgOUSqpmQOvIi8Us6V_gTlh5BUy3uzhhRTgu4KjZDFH4ky6Y8U3lGUMy4PAwNLq7TL175Cribvp3MjVRYqkMX12Rz_-PaChkhvt8GCZwDdGZk5eFESHK)
 
 Packet structure
 
@@ -190,8 +191,7 @@ Both the control messages and control-response messages will use the header form
 
 
 **5.4.1 Control Message Header**
-
-control_header.png
+![Alt Text](https://lh6.googleusercontent.com/XCvdZzO94IfomeWMH6p3oPGNRSK7W-2WvnkGmfZUzqpN7MWkkZNwMZYq0UEXz3IWE4gPpj1JdwPMJfkHNusJw2-MV7ttHyaoeiIEmrSG7eGS2VDkTrwk1hZq_9OrR4nsymaf_p6i)
 
 Packet structure
 
@@ -202,7 +202,7 @@ Payload Length: Size of the payload in bytes, excluding the header fields
 
 **5.4.2 Control-Response Message Header**
 
-response_header.png
+![Alt Text](https://lh6.googleusercontent.com/Kxj1tpyxZcgNAyvF7aZztLx3ccpOk8ach18s5kSW9ZIKQdAA6yPoBf0X_80mB8dNpR1JR9zl_vyLUR2hUlKp7eGl7uedaBnt8_QM5WSi_fX-bTVpa9C1f_9_JyqHoNYHOieP5GV3)
 
 Packet structure
 
@@ -239,7 +239,7 @@ The router, after receiving this message, should start broadcasting the routing 
 
 Control Payload
 
-init.png
+![Alt Text](https://lh5.googleusercontent.com/gjmx79bqTMopxaq7WW0mNz5MlTMhfkjloX_Y5g5RHlTRGZZi3OYjtGNinCuWrku_iEhQqppo8MBaQiku-VBIOHnA6ZtgsT_oW_if0VZrWTaFLqSdr0A1_2OO8BsLHnAg0bNbQBlI)
 
 Packet structure
 
@@ -256,8 +256,7 @@ The controller uses this to request the current routing/forwarding table from a 
 
 
 Control-Response Payload
-
-route-table.png
+![Alt Text](https://lh3.googleusercontent.com/LakbnSxtlTzxeWFM4w-DdbQUezsvFRQCyR1kl7S-6lLp12KpBS6-nuh023QvVePG8B8tBADGrdCgSmtz1zwtcCOiHNJv8DEt4LRN5CnpDASLEDVvu5Fufhnm067F7vzcC9eo31IB)
 
 Packet structure
 
@@ -286,7 +285,7 @@ The file to be sent will reside in the same folder as the binary executable of t
 
 Control Payload
 
-sendfile.png
+![Alt Text](https://lh6.googleusercontent.com/akzDXQIk9JyhUyzxBwyfiWu1QCB3IRmSiWiF3i6O5EVoOGtwyxwOA7Zea2CM1cwaMHiZj1xvstlMDu2LPzTOJapRtralUhXqPfxpErTLatO-NVbNtak2mOyn5y1dgHYxOl8fnfik)
 
 Packet structure
 
@@ -303,8 +302,7 @@ Unless you are attempting BONUS, there will be only one active data transfer/flo
 
 
 Control Payload
-
-sendfile-stats.png
+![Alt Text](https://lh4.googleusercontent.com/h2lqvu8rOrxJIlLUmoM_GYDNbmDGshqOAMeNOFtMew-X-0ybgUatL-WzyWDOjjYs-yDOdtqN_WYcCjid2HOdwlpW_5DUYQw62pBOEa4rVdoEaiKqw_co6BytZDLK1F4aHwVtqPk9)
 
 Packet structure
 
@@ -312,7 +310,7 @@ Transfer ID: <ID> of the transfer/flow for which the statistics are requested
 
 Control-Response Payload
 
-sendfile-stats_response.png
+![Alt Text](https://lh3.googleusercontent.com/gRVeG0xGOaCE0wcLD3ma5idGUwrHnl0JFNSMyue3yu5XxN7ch4UTsXDxXCU8fzK3qyOvT620iuWXFMeeZ734f8gXn39OMSiPsJwbQKUOOLVmfWMLDm1gR0keuJVH3oL4WIBktaYH)
 
 Packet structure
 
@@ -348,8 +346,7 @@ LAST-DATA-PACKET and PENULTIMATE-DATA-PACKET refer to packets with TTL>0
 
 
 **6.1 Data Packet Format**
-
-data.png
+![Alt Text](https://lh4.googleusercontent.com/tFr-YBsWoY9FO-LjvRNzuLZ1KmpT92jMX99YeK-Rp2gK54tq3_Etev8UvZn9UcHHQKW_DkoLnrKsxjj5b5zclNrBpScGaUHWyb4P8zyid0Ki43Ddo3vmV71kM6TE6zeK_nQ6cNPc)
 
 Packet structure
 
